@@ -1,6 +1,16 @@
 @import 'variables.scss';
 
 .b-gallery {
-    font: $font-stack-primary;
+    font-family: $font-stack-primary;
+    font-size: 12px;
     color: $primary-dark-font-color;
+    width: 100%;
+    max-width: $primary-width;
+    margin: 0 auto;
+
+    h1 {
+        font-family: $font-stack-secondary;
+        font-size: $font-size-xxxl;
+        color: $secondary-dark-font-color;
+    }
 }

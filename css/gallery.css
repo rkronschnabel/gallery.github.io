@@ -1,6 +1,15 @@
 .b-gallery {
-  font: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
   color: #473E3B;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.b-gallery h1 {
+  font-family: serif;
+  font-size: 51px;
+  color: #61554F;
 }
 
 /*# sourceMappingURL=gallery.css.map */
