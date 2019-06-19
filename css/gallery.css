@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 .c-gallery .b-header {
-  border: 1px solid #61554F;
+  border-bottom: 1px solid #61554F;
 }
 .c-gallery .b-header h1 {
   font-family: serif;
