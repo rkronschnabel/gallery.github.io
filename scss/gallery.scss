@@ -1,6 +1,6 @@
 @import 'variables.scss';
 
-.b-gallery {
+.c-gallery {
     font-family: $font-stack-primary;
     font-size: 12px;
     color: $primary-dark-font-color;
@@ -8,9 +8,14 @@
     max-width: $primary-width;
     margin: 0 auto;
 
-    h1 {
-        font-family: $font-stack-secondary;
-        font-size: $font-size-xxxl;
-        color: $secondary-dark-font-color;
+    .b-header {
+        border: 1px solid $secondary-dark-font-color;
+        h1 {
+            font-family: $font-stack-secondary;
+            font-size: $font-size-xxxl;
+            color: $secondary-dark-font-color;
+            text-align: center;
+            padding-bottom: $spacing-l;
+        }
     }
 }
